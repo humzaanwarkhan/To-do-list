@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Righteous;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    background: whitesmoke;
+    height: 75%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 20px #888888;
+    overflow: auto;
+}
+h1{
+    color: rgb(104, 104, 230);
+    font-size: 50px;
+    padding-top: 60px;
+}
+.inputArea{
+    margin-top: 50px;
+    background: white;
+    height: 60px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.226)
+}
+.line{
+    margin: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.103);
+}
+.inputBox{
+    border: none;
+    width: 90%;
+    height: 80%;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 0 8px;
+}
+#add{
+    width: 80px;
+    margin-right: 10px;
+    height: 70%;
+    background: rgb(104, 104, 230);
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+.lists{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.listItems{
+    display: flex;
+    padding: 10px 0;
+}
+li{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 5px 10px;
+    /* background: #d6d5d5; */
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    list-style: none;
+    width: 50vw;
+    cursor: pointer;
+}
+li:hover{
+    background: #d6d5d5
+}
+.checkbox{
+    margin: 5px;
+    margin-left: 10px;
+    width: 25px;
+}
+.delete{
+    margin-right: 10px;
+    padding: 0 20px;
+    background-color: rgb(104, 104, 230);
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.completed {
+    background-color: lightgreen; /
+}
+
+#task{
+    display: flex;
+    justify-content: space-between;
+}
